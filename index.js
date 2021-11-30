@@ -23,15 +23,6 @@ const urlParams = new URLSearchParams(location.search)
 
 const params = {}
 
-if (urlParams.has("month")) {
-	params.month = parseInt(urlParams.get("month"))
-} else {
-	const date = new Date()
-	const year = date.getUTCFullYear()
-	const month = date.getUTCMonth()
-	params.month = (year - 2021) * 12 + month - 9
-}
-
 function stringToNumber(str) {
 	// Keep the old seeds working
 	let numeric = true
@@ -54,10 +45,10 @@ function stringToNumber(str) {
 	return result
 }
 
-if (urlParams.has("seed")) {
-	params.seed = stringToNumber(urlParams.get("seed"))
+if (urlParams.has("username")) {
+	params.seed = stringToNumber(urlParams.get("username"))
 } else {
-	params.seed = 1
+	params.seed = stringToNumber('coalesceconf')
 }
 
 // Next two functions taken from https://stackoverflow.com/a/53758827/7595722
@@ -96,27 +87,21 @@ function createBingoCell(name, link) {
 	return cell
 }
 
-function getDateString(month) {
-	const date = new Date()
-	const year = Math.floor(month / 12) + 2021
-	const newMonth = (month % 12) + 9
-	date.setUTCFullYear(year, newMonth)
-	return date.toLocaleDateString("en-US", { month: "long", year: "numeric" })
-}
 
-function redirectToNewCard(month) {
+function redirectToNewCard(username) {
 	let url = window.location.href
 	if (!url.indexOf("?") !== -1) {
 		url = url.slice(0, url.indexOf("?"))
 	}
-	url += `?month=${month}`
-	url += `&seed=${Math.floor(Math.random() * 99999)}`
+	// url += `?username=${Math.floor(Math.random() * 99999)}`
+	url += `?username=${username}`
+
 	window.location.assign(url)
 }
 
 // Fetch the data
 ;(async () => {
-	const response = await fetch(`./outages-${params.month}.json`)
+	const response = await fetch(`./events.json`)
 
 	document.getElementById("loading").remove()
 
@@ -130,9 +115,38 @@ function redirectToNewCard(month) {
 	}
 
 	const title = document.createElement("h2")
-	title.innerText = getDateString(params.month)
+	var username = urlParams.get("username")
+	if(!username) {
+		username = 'coalesceconf'
+	}
+	if(username == 'coalesceconf') {
+		title.innerHTML = `<center>This is the default card, set to <a href="https://twitter.com/${username}">@${username}</a>. <br /> Get your own below!</center>`
+	} else {
+		title.innerHTML = `This card belongs to <a href="https://twitter.com/${username}">@${username}</a>`
+	}
 
 	document.querySelector("body").appendChild(title)
+	const form = document.createElement('form')
+	form.className = "usernameform"
+    form.setAttribute("onsubmit", "redirectToNewCard()");
+
+	var usernameInput = document.createElement("input");
+    usernameInput.setAttribute("type", "text");
+    usernameInput.setAttribute("name", "username");
+	usernameInput.setAttribute("autocomplete","off")
+    usernameInput.setAttribute("placeholder", username);
+	usernameInput.setAttribute('required','')
+	usernameInput.className = "usernameinput"; // set the CSS class
+	document.querySelector("body").appendChild(usernameInput)
+	form.appendChild(usernameInput); 
+	const newCard = document.createElement("button")
+	newCard.setAttribute("type", "submit")
+	newCard.className = 'formbutton'
+	newCard.innerHTML = "Enter your Data Twitter username	 <br /> (or spy on someone else)"
+	form.appendChild(newCard)
+	document.querySelector("body").appendChild(form)
+
+
 
 	const data = await response.json()
 
@@ -170,14 +184,7 @@ function redirectToNewCard(month) {
 
 	document.querySelector("body").appendChild(table)
 
-	const newCard = document.createElement("button")
-	newCard.innerText = "Get my own card"
-	newCard.onclick = () => {
-		redirectToNewCard(params.month)
-	}
-
-	document.querySelector("body").appendChild(newCard)
-
+	
 	let numBingos = 0
 	possibleBingos.forEach((line) => {
 		if (

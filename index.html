@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Major Breach and Outage Bingo</title>
+		<title>dbt Coalesce bingo</title>
 		<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 		<style type="text/css">
 			body {
@@ -20,6 +20,17 @@
 			}
 			tr {
 				height: 20%;
+			}
+			.usernameform {
+				display:flex;
+				flex-direction: column;
+			}
+			.usernameinput {
+				margin-bottom: 10px;
+				line-height: 24px;
+			}
+			.formbutton {
+				margin-bottom: 10px;
 			}
 			td {
 				width: 20%;
@@ -63,8 +74,8 @@
 	<body>
 		<canvas id="confetti"></canvas>
 		<marquee id="bingo" class="invis"></marquee>
-		<h1>Major Breach and Outage Bingo</h1>
-		<a href="https://github.com/queer/outage.bingo">Source</a>
+		<h1>dbt Coalesce bingo</h1>
+		<a href="https://github.com/izzymiller/coalesce-bingo">Source</a>
 		<div id="loading">Loading card...</div>
 		<script src="./index.js"></script>
 	</body>

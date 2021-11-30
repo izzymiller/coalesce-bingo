@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Slack",
-		"link": "https://status.slack.com/2021-09/06c1e17de93e7dc2"
+		"link": ""
 	},
 	{
 		"name": "Oracle Cloud",
@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "A major ISP / telecom company",
-		"link": "https://arstechnica.com/information-technology/2021/10/company-that-routes-sms-for-all-major-us-carriers-was-hacked-for-five-years/"
+		"link": ""
 	},
 	{
 		"name": "Cloudflare",
@@ -33,11 +33,11 @@
 	},
 	{
 		"name": "Reddit",
-		"link": "https://www.redditstatus.com/incidents/l0nxc21gvdh1"
+		"link": ""
 	},
 	{
 		"name": "Microsoft Azure",
-		"link": "https://status.azure.com/en-us/status/history/"
+		"link": ""
 	},
 	{
 		"name": "An antivirus / antimalware vendor",
@@ -49,7 +49,7 @@
 	},
 	{
 		"name": "A government entity",
-		"link": "https://missouriindependent.com/2021/10/14/missouri-governor-vows-criminal-prosecution-of-reporter-who-found-flaw-in-state-website/"
+		"link": ""
 	},
 	{
 		"name": "A large DNS provider",
@@ -61,15 +61,15 @@
 	},
 	{
 		"name": "Facebook / WhatsApp / Instagram",
-		"link": "https://engineering.fb.com/2021/10/04/networking-traffic/outage/"
+		"link": ""
 	},
 	{
 		"name": "A major code hosting service (Github, PyPI, NPM, etc.)",
-		"link": "https://www.githubstatus.com/incidents/bdbzpz7qxmbx"
+		"link": ""
 	},
 	{
 		"name": "Apple",
-		"link": "https://www.macrumors.com/2021/10/01/apple-card-issues/"
+		"link": ""
 	},
 	{
 		"name": "Google Cloud Platform",
@@ -81,7 +81,7 @@
 	},
 	{
 		"name": "An entire TLD",
-		"link": "https://old.reddit.com/r/sysadmin/comments/q38p8x/entire_club_domain_extension_is_down/"
+		"link": ""
 	},
 	{
 		"name": "Other major CDN provider (Fastly, Akamai, etc.)",
@@ -89,7 +89,7 @@
 	},
 	{
 		"name": "Twitch",
-		"link": "https://www.theverge.com/2021/10/6/22712250/twitch-hack-leak-data-streamer-revenue-steam-competitor"
+		"link": ""
 	},
 	{
 		"name": "A major VPN service",
