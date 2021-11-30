@@ -5,14 +5,12 @@
 		<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 		<style type="text/css">
 			body {
-				font-family: sans;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+				font-family: "Open Sans", Tahoma, Verdana, sans-serif;
 			}
 			h1 {
-				margin-bottom: 0;
 			}
 			table {
 				width: min(80vw, 75vh);
@@ -31,6 +29,12 @@
 			}
 			.formbutton {
 				margin-bottom: 10px;
+			}
+			.receipt {
+				font-size: x-small;
+				word-break: break-all;
+				white-space: normal;
+				margin: 5px;
 			}
 			td {
 				width: 20%;
@@ -56,8 +60,46 @@
 				border: 1px #ccc solid;
 			}
 			.cell-checked {
-				background-color: aquamarine;
+				background-color: #993955;
+				color: #fff
 			}
+			.cell-checked a {
+				color: #fff
+			}
+			.cell-empty {
+				background-color: gray;
+			}
+			.tooltipvisible {
+					position: relative;
+					display: inline-block;
+				}
+
+			.tooltipvisible .receipt-text {
+					visibility: hidden;
+					width: 120px;
+					background-color: #fff;
+					border: 1px solid black;
+					color: #993955;
+					text-align: center;
+					border-radius: 6px;
+					padding: 5px 0;
+					position: absolute;
+					z-index: 1;
+					bottom: 100%;
+					/* left: 50%; */
+					/* margin-left: -60px; */
+
+					/* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+					opacity: 0;
+					transition: opacity 1s;
+			}
+
+			.tooltipvisible:hover .receipt-text{
+					visibility: visible;
+					transform: translateX(-55%);
+					opacity: 1;
+			}
+
 			#confetti {
 				position: fixed;
 				top: 0;
@@ -69,13 +111,17 @@
 			.invis {
 				visibility: hidden;
 			}
+			.title {
+				display: flex;
+				align-items: center;
+			}
 		</style>
 	</head>
 	<body>
 		<canvas id="confetti"></canvas>
 		<marquee id="bingo" class="invis"></marquee>
-		<h1>dbt Coalesce bingo</h1>
-		<a href="https://github.com/izzymiller/coalesce-bingo">Source</a>
+		<a href="https://coalesce.getdbt.com/"><img width="400px" src="bingo.png" /></a>
+		
 		<div id="loading">Loading card...</div>
 		<script src="./index.js"></script>
 	</body>

@@ -1,98 +1,99 @@
+
 [
 	{
-		"name": "Slack",
-		"link": ""
+		"name": "Modern Data Stack",
+		"receipt": "s"
 	},
 	{
-		"name": "Oracle Cloud",
-		"link": ""
+		"name": "Someone dunking on Redshift",
+		"receipt": "s"
 	},
 	{
-		"name": "A major ISP / telecom company",
-		"link": ""
+		"name": "Trailing / leading commas",
+		"receipt": "ss"
 	},
 	{
-		"name": "Cloudflare",
-		"link": ""
+		"name": "Data mesh is explained",
+		"receipt": "s"
 	},
 	{
-		"name": "Google (main servers)",
-		"link": ""
+		"name": "Data mesh is mentioned, but not explained",
+		"receipt": "s"
 	},
 	{
-		"name": "Twitter",
-		"link": ""
+		"name": "Data Twitter screenshot in slide",
+		"receipt": "s"
 	},
 	{
-		"name": "Tesla",
-		"link": ""
+		"name": "DBT is capitalized somewhere",
+		"receipt": "s"
 	},
 	{
-		"name": "YouTube",
-		"link": ""
+		"name": "metrics layer",
+		"receipt": "s"
 	},
 	{
-		"name": "Reddit",
-		"link": ""
+		"name": "dbt slack inside joke",
+		"receipt": "s"
 	},
 	{
-		"name": "Microsoft Azure",
-		"link": ""
+		"name": "____ is dead",
+		"receipt": "s"
 	},
 	{
-		"name": "An antivirus / antimalware vendor",
-		"link": ""
+		"name": "Reference to Benn's substack",
+		"receipt": ""
 	},
 	{
-		"name": "Dyn",
-		"link": ""
+		"name": "s",
+		"receipt": "s"
 	},
 	{
-		"name": "A government entity",
-		"link": ""
+		"name": "s",
+		"receipt": "s"
 	},
 	{
-		"name": "A large DNS provider",
-		"link": ""
+		"name": "s",
+		"receipt": "s"
 	},
 	{
-		"name": "Amazon / AWS",
-		"link": ""
+		"name": "s",
+		"receipt": "s"
 	},
 	{
-		"name": "Facebook / WhatsApp / Instagram",
-		"link": ""
+		"name": "s",
+		"receipt": "s"
 	},
 	{
-		"name": "A major code hosting service (Github, PyPI, NPM, etc.)",
-		"link": ""
+		"name": "",
+		"receipt": ""
 	},
 	{
-		"name": "Apple",
-		"link": ""
+		"name": "",
+		"receipt": ""
 	},
 	{
-		"name": "Google Cloud Platform",
-		"link": ""
+		"name": "",
+		"receipt": ""
 	},
 	{
-		"name": "Microsoft (main servers)",
-		"link": ""
+		"name": "",
+		"receipt": ""
 	},
 	{
-		"name": "An entire TLD",
-		"link": ""
+		"name": "",
+		"receipt": ""
 	},
 	{
-		"name": "Other major CDN provider (Fastly, Akamai, etc.)",
-		"link": ""
+		"name": "",
+		"receipt": ""
 	},
 	{
-		"name": "Twitch",
-		"link": ""
+		"name": "",
+		"receipt": ""
 	},
 	{
-		"name": "A major VPN service",
-		"link": ""
+		"name": "",
+		"receipt": ""
 	}
 ]
