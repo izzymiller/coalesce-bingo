@@ -85,7 +85,7 @@ function createBingoCell(name, receipt) {
             cell.innerHTML = "<p>I'm empty!<a href='https://github.com/izzymiller/coalesce-bingo/blob/main/events.json'> Fill me in with a great bingo clue </a></p>"
             cell.className = "cell-empty"
         } else {
-            cell.innerHTML = `<p>${name}<p><br /> <a target="_blank" href="https://github.com/izzymiller/coalesce-bingo/edit/main/events.json">report</a>`
+            cell.innerHTML = `<p>${name}<p><br /> <a target="_blank" href="https://github.com/izzymiller/coalesce-bingo/edit/main/events.json">this happened</a>`
             cell.className = "cell-unchecked"
         }
 
