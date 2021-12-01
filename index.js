@@ -182,7 +182,7 @@ function redirectToNewCard(username) {
             if (i === 2 && j === 2) {
                 // This is the free space
                 cell = document.createElement("td")
-                cell.innerText = "Free Space"
+                cell.innerHTML = '<div class="tooltipvisible">Free Space<span class="receipt-text" style="width:350px">You get this one for free :)</span></div>'
                 cell.className = "cell-checked"
                 finalCard.push({
                     name: "Free Space",
