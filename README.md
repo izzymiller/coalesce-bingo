@@ -11,7 +11,7 @@ Also, you can get multiple bingos, so the game isn't over once you hit your firs
 
 
 ## (After Dec 6) Reporting events as having occurred
-There's an [events.json](https://github.com/izzymiller/coalesce-bingo/blob/mistress/events.json) file in this repo that anyone can edit. Adding a "receipt" to an event will automatically mark it has having occurred, and color it in on everyone's bingo board.
+There's an [events.json](https://github.com/izzymiller/coalesce-bingo/blob/main/events.json) file in this repo that anyone can edit. Adding a "receipt" to an event will automatically mark it has having occurred, and color it in on everyone's bingo board.
 
 You can submit:
 * URL receipts: ex: a link to a screenshot of dbt slack. 
@@ -19,7 +19,7 @@ You can submit:
 
 ## (Before Dec 6) Contributing events
 
-I don't want to monopolize the bingo board, so I just added a few ideas and left the rest empty for folks to fill in. Have something funny in mind that you think might (or might not!) happen? Open a PR in [events.json](https://github.com/izzymiller/coalesce-bingo/blob/mistress/events.json) and fill in the `name` of a blank event! **Don't add new events, since this will mess up the bingo board— Just edit the names of existing, blank ones.**
+I don't want to monopolize the bingo board, so I just added a few ideas and left the rest empty for folks to fill in. Have something funny in mind that you think might (or might not!) happen? Open a PR in [events.json](https://github.com/izzymiller/coalesce-bingo/blob/main/events.json) and fill in the `name` of a blank event! **Don't add new events, since this will mess up the bingo board— Just edit the names of existing, blank ones.**
 
 ## Rules
 
@@ -30,4 +30,4 @@ I don't want to monopolize the bingo board, so I just added a few ideas and left
 
 * Feel free to debate overwriting existing events if you have a really great idea, but please ask the person who originally added it (git blame is handy for this!). After Coalesce begins on December 6, please do not change events.
 
-* Board fairness: I'm not great at math. I forked this repo from https://github.com/queer/outage.bingo, who uses a seed number to generate some random seeds. You can see this [here](https://github.com/izzymiller/coalesce-bingo/blob/mistress/index.js#L43). Since people could game the system entering events if we know exactly what the boards will look like ahead of time, **I am going to alter the seed to something completely random (I promise not to cheat) on the evening of Dec 5, when we declare event names locked.** This will jumble everyone's boards and serve as the final shuffle before the game begins.
+* Board fairness: I'm not great at math. I forked this repo from https://github.com/queer/outage.bingo, who uses a seed number to generate some random seeds. You can see this [here](https://github.com/izzymiller/coalesce-bingo/blob/main/index.js#L43). Since people could game the system entering events if we know exactly what the boards will look like ahead of time, **I am going to alter the seed to something completely random (I promise not to cheat) on the evening of Dec 5, when we declare event names locked.** This will jumble everyone's boards and serve as the final shuffle before the game begins.
