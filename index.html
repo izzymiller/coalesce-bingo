@@ -10,7 +10,8 @@
 				align-items: center;
 				font-family: "Open Sans", Tahoma, Verdana, sans-serif;
 			}
-			h1 {
+			h2 {
+				margin-top: 0px;
 			}
 			table {
 				width: min(80vw, 75vh);
@@ -66,8 +67,11 @@
 			.cell-checked a {
 				color: #fff
 			}
+			.cell-unchecked a {
+				color: #993955
+			}
 			.cell-empty {
-				background-color: gray;
+				background-color: lightgray;
 			}
 			.tooltipvisible {
 					position: relative;
@@ -99,6 +103,12 @@
 					transform: translateX(-55%);
 					opacity: 1;
 			}
+			
+			.readme a {
+				color: black;
+				font-weight: bold;
+				/* text-decoration: none; */
+			}
 
 			#confetti {
 				position: fixed;
@@ -121,8 +131,9 @@
 		<canvas id="confetti"></canvas>
 		<marquee id="bingo" class="invis"></marquee>
 		<a href="https://coalesce.getdbt.com/"><img width="400px" src="bingo.png" /></a>
-		
+		<p class="readme"><a target="_blank" href="https://github.com/izzymiller/coalesce-bingo">How to play</a></p>
 		<div id="loading">Loading card...</div>
+		<hr class="solid" />
 		<script src="./index.js"></script>
 	</body>
 </html>

@@ -201,6 +201,11 @@ function redirectToNewCard(username) {
 
     document.querySelector("body").appendChild(table)
 
+	//footer
+	footer = document.createElement("p")
+	footer.className = "me-footer"
+	footer.innerHTML = '<p>Made by <a target="_blank" href="https://twitter.com/isidoremiller">@isidoremiller</a>. I work at <a href="https://hex.tech">hex</a>.</p>'
+	document.querySelector("body").appendChild(footer)
 
     let numBingos = 0
     possibleBingos.forEach((line) => {
