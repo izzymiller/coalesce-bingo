@@ -1,68 +1,67 @@
-
 [
 	{
-		"name": "Modern Data Stack",
-		"receipt": "s"
+		"name": "Modern Data Stack! (aka free card)",
+		"receipt": ""
 	},
 	{
-		"name": "Someone dunking on Redshift",
-		"receipt": "s"
+		"name": "Someone dunks on Redshift",
+		"receipt": ""
 	},
 	{
-		"name": "Trailing / leading commas",
-		"receipt": "ss"
+		"name": "Trailing / leading commas joke",
+		"receipt": ""
 	},
 	{
-		"name": "Data mesh is explained",
-		"receipt": "s"
+		"name": "Data mesh is actually explained",
+		"receipt": ""
 	},
 	{
 		"name": "Data mesh is mentioned, but not explained",
-		"receipt": "s"
+		"receipt": ""
 	},
 	{
-		"name": "Data Twitter screenshot in slide",
-		"receipt": "s"
+		"name": "Data Twitter screenshot on slide",
+		"receipt": ""
 	},
 	{
 		"name": "DBT is capitalized somewhere",
-		"receipt": "s"
-	},
-	{
-		"name": "metrics layer",
-		"receipt": "s"
+		"receipt": ""
 	},
 	{
 		"name": "dbt slack inside joke",
-		"receipt": "s"
+		"receipt": ""
 	},
 	{
-		"name": "____ is dead",
-		"receipt": "s"
+		"name": "__some tool/language/thing__ is dead",
+		"receipt": ""
 	},
 	{
 		"name": "Reference to Benn's substack",
 		"receipt": ""
 	},
 	{
-		"name": "s",
-		"receipt": "s"
+		"name": "",
+		"receipt": ""
 	},
 	{
-		"name": "s",
-		"receipt": "s"
+		"name": "",
+		"receipt": ""
 	},
 	{
-		"name": "s",
-		"receipt": "s"
+		"name": "",
+		"receipt": ""
 	},
 	{
-		"name": "s",
-		"receipt": "s"
+		"name": "",
+		"receipt": ""
 	},
 	{
-		"name": "s",
-		"receipt": "s"
+		"name": "",
+		"receipt": ""
+	},
+	{
+		"name": "",
+		"receipt": ""
 	},
 	{
 		"name": "",
