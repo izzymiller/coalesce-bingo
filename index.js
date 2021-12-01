@@ -132,14 +132,14 @@ function redirectToNewCard(username) {
     }
 
     const title = document.createElement("h2")
-    var username = urlParams.get("username").toLowerCase()
+    var username = urlParams.get("username")
     if (!username) {
         username = 'coalesceconf'
     }
     if (username == 'coalesceconf') {
         title.innerHTML = `<center>This is the default card, set to <a href="https://twitter.com/${username}">@${username}</a>. <br /> Get your own below!</center>`
     } else {
-        title.innerHTML = `This card belongs to <a href="https://twitter.com/${username}">@${username}</a>`
+        title.innerHTML = `This card belongs to <a href="https://twitter.com/${username}">@${username.toLowerCase()}</a>`
     }
 
     document.querySelector("body").appendChild(title)
