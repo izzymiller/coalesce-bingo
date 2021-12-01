@@ -11,7 +11,9 @@ Also, you can get multiple bingos, so the game isn't over once you hit your firs
 
 
 ## (During Coalesce) Marking events as having happened
-There's an [events.json](https://github.com/izzymiller/coalesce-bingo/blob/main/events.json) file in this repo that anyone can edit. Adding a "receipt" (proof it happened) to an event will automatically mark it has having happened, and color it in on everyone's bingo board.
+There's an [events.json](https://github.com/izzymiller/coalesce-bingo/blob/main/events.json) file in this repo. Adding a "receipt" (proof it happened) to an event will automatically mark it has having happened, and color it in on everyone's bingo board.
+
+To edit, fork this repo, make your edits, and then merge them back into upstream. [Here's a nice tutorial!](https://jarv.is/notes/how-to-pull-request-fork-github/)
 
 You can submit:
 * URL receipts: ex: a link to a screenshot of dbt slack. 
@@ -22,6 +24,8 @@ Honor system works great.
 ## (Before Coalesce) Contributing events
 
 I don't want to monopolize the bingo board, so I just added a couple of ideas and left the rest empty for folks to fill in. Have something funny in mind that you think might (or might not!) happen? Open a PR in [events.json](https://github.com/izzymiller/coalesce-bingo/blob/main/events.json) and fill in the `name` of a blank event! **Don't add new events, since this will mess up the bingo board— Just edit the names of existing, blank ones.**
+
+To edit, fork this repo, make your edits, and then merge them back into upstream. [Here's a nice tutorial!](https://jarv.is/notes/how-to-pull-request-fork-github/)
 
 PRs need approval, so tag in some people to discuss, or wait for others to discover your PR and give you the green light before merging.
 
