@@ -1,7 +1,9 @@
 # Coalesce Bingo
 
+What is this? A sideshow game for [dbt Coalesce](https://coalesce.getdbt.com/), "The Analytics Engineering Conference" happening from Dec 6-10 2021.
+
 # How to Play
-Visit izzy.co/coalescebingo and generate yourself a bingo card using that most unique of identifiers— your Data Twitter username. Not on twitter? oh well, it accepts any string really, so have at it. Everyone's card is different, and tied to their username.
+Visit [coalesce.bingo](https://coalesce.bingo) and generate a bingo card using that most unique of identifiers— your Data Twitter username. Not on the bird app? Well, don't tell anyone but it accepts any string really, so have at it. Everyone's card is different, and tied to their username.
 
 During the course of Coalesce, you can "report" certain bingo events as having occurred. This will color it in on everyone's bingo board! Of course, you win Bingo when you get 4 in a row. Because everyone's cards are different, some might win fast, and others might malinger throughout the entire week— This is part of the fun! Feel free to tweet your bingo boards, share them in dbt slack, exclaim with glee when you strike a bingo, etc.
 
