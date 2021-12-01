@@ -48,7 +48,7 @@ function stringToNumber(str) {
 }
 
 if (urlParams.has("username")) {
-    params.seed = stringToNumber(urlParams.get("username"))
+    params.seed = stringToNumber(urlParams.get("username").toLowerCase())
 } else {
     params.seed = stringToNumber('coalesceconf')
 }
@@ -110,7 +110,7 @@ function redirectToNewCard(username) {
         url = url.slice(0, url.indexOf("?"))
     }
     // url += `?username=${Math.floor(Math.random() * 99999)}`
-    url += `?username=${username}`
+    url += `?username=${username.toLowerCase()}`
 
     window.location.assign(url)
 }
@@ -132,7 +132,7 @@ function redirectToNewCard(username) {
     }
 
     const title = document.createElement("h2")
-    var username = urlParams.get("username")
+    var username = urlParams.get("username").toLowerCase()
     if (!username) {
         username = 'coalesceconf'
     }
