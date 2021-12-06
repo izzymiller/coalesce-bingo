@@ -42,7 +42,7 @@ function stringToNumber(str) {
     let result = 0
     Array.from(str).forEach((c) => {
         result = result * 0x10ffff + c.codePointAt(0)
-        result = result % 0x1000000
+        result = result % 0x00E67102
     })
     return result
 }
