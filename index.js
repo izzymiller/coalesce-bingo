@@ -220,9 +220,9 @@ function redirectToNewCard(username) {
     if (numBingos > 0) {
         setTimeout(() => {
             confetti.addConfetti({
-                emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
-				emojiSize: 100,
-                confettiNumber: 20 * numBingos,
+                emojis: ['🌈', '🔮', '💜', '🎆', '🦄', '🧞‍♀️'],
+				emojiSize: 300,
+                confettiNumber: 50 * numBingos,
             })
         }, 1000)
         const marquee = document.getElementById("bingo")
