@@ -1,27 +1,27 @@
 [
 	{
 		"name": "Modern Data Stack! (aka free card)",
-		"receipt": "Said by Tristan in the second sentence of Day 1 keynote"
+		"receipt": ""
 	},
 	{
 		"name": "Someone dunks on Redshift",
-		"receipt": "https://getdbt.slack.com/archives/C02D5AXULCR/p1639004393168600"
+		"receipt": ""
 	},
 	{
 		"name": "Trailing / leading commas joke",
-		"receipt": "https://getdbt.slack.com/archives/C02CBUQ79V5/p1638811334146800?thread_ts=1638810930.129700&cid=C02CBUQ79V5"
+		"receipt": ""
 	},
 	{
 		"name": "Data mesh is actually explained",
-		"receipt": "https://getdbt.slack.com/archives/C02CT79LX0A"
+		"receipt": ""
 	},
 	{
 		"name": "Data mesh is mentioned, but not explained",
-		"receipt": "Ganz said 'data mesh'!"
+		"receipt": ""
 	},
 	{
 		"name": "Data Twitter screenshot on slide",
-		"receipt": "Josh Willis in Emilie's talk"
+		"receipt": ""
 	},
 	{
 		"name": "DBT is capitalized somewhere",
@@ -33,55 +33,55 @@
 	},
 	{
 		"name": "__some tool/language/thing__ is dead",
-		"receipt": "https://getdbt.slack.com/archives/CTMTMFNH5/p1638914804100200"
+		"receipt": ""
 	},
 	{
 		"name": "Reference to Benn's substack",
-		"receipt": "https://imgur.com/a/cgTvyJM"
+		"receipt": ""
 	},
 	{
 		"name": "Chaotic GIF of Lauren Craigie singing in the wilderness",
-		"receipt": "https://getdbt.slack.com/archives/C0VLNUUTZ/p1639107296445600?thread_ts=1639107264.445500&cid=C0VLNUUTZ"
+		"receipt": ""
 	},
 	{
 		"name": "Reference to Analytics Engineering Roundup (either Anna or Tristan)",
-		"receipt": "Tristan mentioned his substack"
+		"receipt": ""
 	},
 	{
 		"name": "the old dbt logo 😭",
-		"receipt": "On Joel's tshirt when he intro'd a session."
+		"receipt": ""
 	},
 	{
 		"name": "Kimball mention",
-		"receipt": "Winladriel referenced Kimball when talking about the white council’s ancient data strategies"
+		"receipt": ""
 	},
 	{
 		"name": "centralized vs. decentralized data team debate",
-		"receipt": "Mentioned by Stef in the 'identity' panel."
+		"receipt": ""
 	},
 	{
 		"name": "Someone's pet or kid interrupts their talk",
-		"receipt": "https://getdbt.slack.com/archives/C02CT508DEE/p1639010331068100"
+		"receipt": ""
 	},
 	{
 		"name": "Someone invents or mentions a new Data <somebody> role",
-		"receipt": "'Data Project Manager' in the Identity Crisis panel."
+		"receipt": ""
 	},
 	{
 		"name": "The metrics layer is called the future of analytics",
-		"receipt": "https://i.imgur.com/836EKnr.png"
+		"receipt": ""
 	},
 	{
 		"name": "Data stack architecture diagram on a slide",
-		"receipt": "Abhiti's Incremental Models talk"
+		"receipt": ""
 	},
 	{
 		"name": "meme format that pre-dates 2015",
-		"receipt": "https://getdbt.slack.com/archives/CTMTMFNH5/p1638805059251500"
+		"receipt": ""
 	},
 	{
 		"name": "blockchain is mentioned (even ironically)",
-		"receipt": "Mention of crypto by Martin in the 'How big is this wave' keynote"
+		"receipt": ""
 	},
 	{
 		"name": "Viewer count in a session hits 11111",
@@ -93,6 +93,6 @@
 	},
 	{
 		"name": "DB benchmarks are brought up",
-		"receipt": "During the databricks session Reynold mentioned them."
+		"receipt": ""
 	}
 ]
