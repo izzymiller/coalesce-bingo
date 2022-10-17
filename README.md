@@ -1,6 +1,6 @@
 # Coalesce Bingo
 
-What is this? A sideshow game for [dbt Coalesce](https://coalesce.getdbt.com/), "The Analytics Engineering Conference" happening from Dec 6-10 2021.
+What is this? A sideshow game for [dbt Coalesce](https://coalesce.getdbt.com/), "The Analytics Engineering Conference" happening from Oct 17-21, 2022.
 
 # How to Play
 Visit [coalesce.bingo](https://coalesce.bingo) and generate a bingo card using that most unique of identifiers— your Data Twitter username. Not on the bird app? Well, don't tell anyone but it accepts any string really, so have at it. Everyone's card is different, and tied to their username.
