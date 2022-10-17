@@ -66,10 +66,13 @@ function shuffle(array, seed) {
         t = array[m]
         array[m] = array[i]
         array[i] = t
-            ++seed
+        ++seed
     }
-
-    return array
+    let filtered = array.filter((card) => {
+        return !card.name.includes('Empty, add an action');
+    });
+    let selected = filtered.slice(0, 25);
+    return selected
 }
 
 function random(seed) {
@@ -168,6 +171,7 @@ function redirectToNewCard(username) {
     const data = await response.json()
 
     const shuffled = shuffle(data, params.seed)
+
     const table = document.createElement("table")
     // We're going to do a new array so that the final card will be in one
     // smaller array just in case we have more than 24 options, and so that
@@ -201,11 +205,11 @@ function redirectToNewCard(username) {
 
     document.querySelector("body").appendChild(table)
 
-	//footer
-	footer = document.createElement("p")
-	footer.className = "me-footer"
-	footer.innerHTML = '<p>Made by <a target="_blank" href="https://twitter.com/isidoremiller">@isidoremiller</a>. I work at <a href="https://hex.tech">hex</a>.</p>'
-	document.querySelector("body").appendChild(footer)
+    //footer
+    footer = document.createElement("p")
+    footer.className = "me-footer"
+    footer.innerHTML = '<p>Made by <a target="_blank" href="https://twitter.com/isidoremiller">@isidoremiller</a>. I work at <a href="https://hex.tech">hex</a>.</p>'
+    document.querySelector("body").appendChild(footer)
 
     let numBingos = 0
     possibleBingos.forEach((line) => {
@@ -221,7 +225,7 @@ function redirectToNewCard(username) {
         setTimeout(() => {
             confetti.addConfetti({
                 emojis: ['🌈', '🔮', '💜', '🎆', '🦄', '🧞‍♀️'],
-				emojiSize: 300,
+                emojiSize: 300,
                 confettiNumber: 50 * numBingos,
             })
         }, 1000)
